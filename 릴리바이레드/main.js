@@ -80,9 +80,9 @@ const bestSlider = new Swiper('.best-slider', {
         nextEl: ".best-navigation button.next",
         prevEl: ".best-navigation button.prev",
     },
-    autoplay: {
-        delay: 1000
-    }
+    // autoplay: {
+    //     delay: 1000
+    // }
 });
 
 //footer 드롭다운운

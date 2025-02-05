@@ -539,34 +539,66 @@ li.hover:hover img {
 }
 
 @media (max-width: 600px) {
-    ul.award-list li {
-        height: 380px;
-    }
+    
 }
-
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+    .close-btn {
+        right : 20px;
+    } 
+    .main-visual {
+        height: 50vh;
+    }
+    .slogan-container h1 {
+        font-size: 4vw;
+    }
+    .slogan-container .more,.slogan-container p {
+        font-size: 3vw;
+    }
+    section.awards {
+        margin-top: 10vw !important;
+    }
     p.slogan.en {
         font-size: 10px;
     }
-
     section.awards div.title h3 {
         font-size: 16px;
     }
     ul.award-list li {
-        height: 280px;
+        height: 63vw;
     }
-
     li.hover .item-name {
         font-size: 10px;
         bottom: 18px;
     }
-
+    ul.event-list li h2 {
+        left: 20px;
+        bottom: 25px;
+    }
+    ul.event-list li p {
+        left: 20px;
+        bottom: 18px;
+    }
     li.hover .price {
         font-size: 10px;
-        bottom: 3px;
+        bottom: -10px;
     }
-    
+    section.best-item {
+        margin-top: 10vw !important;
+    }
+    .information p.bestitem-name {
+        font-size: 1.6vw;
+    }
+    .information p.price {
+        display: flex;
+    }
+    .information p.price span,.information p.price strong {
+        font-size: 1.5vw;
+    }
+    .video-container {
+        margin-top: 10vw !important;
+    }
 }
+
 
 /* section class="eventimg" */
 section.eventimg {
