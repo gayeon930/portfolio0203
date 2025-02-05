@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>서가연의 포트폴리오</title>
-    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@latest/dist/web/static/pretendard.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="default.css">
@@ -15,8 +15,8 @@
         <div class="nav">
             <h1>PORTFOLIO</h1>
             <ul>
-                <li><a href="gongcha/index.html" target="_blank">Home</a></li>
-                <li><a href="aesop/index.html" target="_blank">Profile</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>  
@@ -33,15 +33,14 @@
             <h1>MY PROFILE</h1>
             <div class="inner">
                 <div class="profile-img"><img src="images/서가연.jpg" alt="서가연 증명사진"></div>
-                <div>
+                <div class="my-box">
                     <div class="information">
-                        <div class="my-box">
-                            <div class="my-information">
+                        <div class="my-information">
                             <h2>서가연</h2>
                             <p>SEO GA YEON</p>
                             <p>2000.09.30</p>
-                            <p><strong>Phone:</strong>010 8842 1936</p>
-                            <p><strong>email:</strong>ssgy0930@naver.com</p>
+                            <p class="phone-number"><strong>Phone: </strong>010 8842 1936</p>
+                            <p><strong>email: </strong>ssgy0930@naver.com</p>
                         </div>
                         <div class="skills">
                             <h2>SKILLS</h2>
@@ -61,7 +60,7 @@
                             <h3>2023.02</h3>
                             <p>수원대학교 전자공학과 졸업</p>
                             <h3>2024.07 - 2025.02</h3>
-                            <p>SBS아카데미컴퓨터아트학원 웹 퍼블리셔 과정 이수</p>
+                            <p>SBS아카데미컴퓨터아트학원<br> 웹 퍼블리셔 과정 이수</p>
                         </div>
                         <div class="work-experience">
                             <h2>WORK EXPERIENCE</h2>
@@ -71,6 +70,58 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="portfolio">
+            <h1>MY PORTFOLIO</h1>
+            <div class="swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="portfolio1">
+                            <h2>LILYBYRED</h2>
+                            <h3>Figma로 시안을 제작 후<br> HTML, CSS, Javascript로 퍼블리싱했습니다.</h3>
+                            <p>
+                                Type : 클론 코딩 <br>Tools : Figma, HTML5, CSS3, javascript <br>작업 기여도 : 100% 
+                            </p>
+                        </div>
+                        <a href="릴리바이레드/index.html" target="_blank"><img src="images/lilybyred.png" alt="lilybyred클론코딩 사이트"></a>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="portfolio1">
+                            <h2>FLEX</h2>
+                            <h3>Figma로 시안을 제작 후<br> HTML, CSS, Javascript로 퍼블리싱했습니다.</h3>
+                            <p>
+                                Type : 클론 코딩 <br>Tools : Figma, HTML5, CSS3, javascript <br>작업 기여도 : 100% 
+                            </p>
+                        </div>
+                        <a href="플렉스/index.html" target="_blank"><img src="images/flex.png" alt="flex 클론코딩 사이트"></a>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="portfolio1">
+                            <h2>GONGCHA</h2>
+                            <h3>Figma로 시안을 제작 후<br> HTML, CSS, Javascript로 퍼블리싱했습니다.</h3>
+                            <p>
+                                Type : 리디자인 <br>Tools : Figma, HTML5, CSS3, javascript <br>작업 기여도 : 100% 
+                            </p>
+                        </div>
+                        <a href="공차/index.html" target="_blank"><img src="images/gongcha.png" alt="공차 리뉴얼 사이트"></a>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="portfolio1">
+                            <h2>AESOP</h2>
+                            <h3>Figma로 시안을 제작 후<br> HTML, CSS, Javascript로 퍼블리싱했습니다.</h3>
+                            <p>
+                                Type : 리디자인 <br>Tools : Figma, HTML5, CSS3, javascript <br>작업 기여도 : 100% 
+                            </p>
+                        </div>
+                        <a href="aesop/index.html" target="_blank"><img src="images/aesop.png" alt="이솝 리뉴얼 사이트"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="slide-navigation">
+                <button class="prev"><i class="material-icons left">chevron_left</i></button>
+                <button class="next"><i class="material-icons right">chevron_right</i></button>
+            </div>
+            <div class="slide-pagination"></div>
         </section>
     </main>
 
