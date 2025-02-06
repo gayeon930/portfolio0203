@@ -373,6 +373,7 @@ section.best .swiper-slide-active .underlined-text::after {
 }
 .best-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
     width: 85%;
+    height: 0.2vw;
     margin-top: 3vw;
     position: relative;
     top: -17%;
@@ -907,7 +908,6 @@ footer {
 /* join button */
 .join-btn {
     cursor: pointer;
-    z-index: 5;
     position: fixed;
     border: none;
     right: 2%;
@@ -927,5 +927,32 @@ footer {
     0%{}
     100%{
         margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 900px) {
+    .join-btn {
+        width: 7vw;
+        height: 7vw;
+    }
+    .join-btn img {
+        width: 2.6vw;
+        height: 2.6vw;
+    }
+}
+@media(max-width: 600px) {
+    .best-navigation button i,.promotion-navigation button i {
+        font-size: 4vw;
+    }
+    .promotion-list li {
+        margin-bottom: 0vw;
+    }
+    .promotion-navigation {
+        bottom: 1vw;
+    }
+    footer .logo img {
+        width: 3.5vw;
+        height: 5vw;
+
     }
 }
