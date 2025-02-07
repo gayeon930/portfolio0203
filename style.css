@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 header {
     z-index: 99;
     width: 100%;
@@ -31,6 +34,9 @@ header .nav ul a {
     color: #3a3a3a;
     font-size: 18px;
     font-weight: 500;
+}
+header .nav ul li:hover a {
+    color: #ffffff;
 }
 
 
@@ -91,7 +97,7 @@ section.profile .inner {
     margin-bottom: 4.1vw;
 }
 .skills,.work-experience {
-    margin-top: 2.6vw;
+    margin-top: 1.7vw;
 }
 h2 {
     margin-bottom: 0.5vw;
@@ -102,6 +108,9 @@ h3 {
     margin-bottom: 0.26vw;
     color: #3a3a3a;
     font-size: 1.1vw;
+}
+.education h3.date {
+    margin-top: 0.4vw;
 }
 p {
     color: #3a3a3a;
@@ -168,7 +177,7 @@ section.portfolio ul li a img {
     transition: transform 500ms;
 }
 section.portfolio ul li a img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 .swiper {
     /* border: 1px solid green; */
@@ -266,6 +275,18 @@ section.contact ul li.mail i,section.contact ul li.phone i {
     margin-right: 0.5vw;
 }
 
+
+
+section.footer {
+    padding: 2vw 0;
+    background: #3a3a3a;
+    text-align: center;
+}
+section.footer p {
+    font-size: 1vw;
+    font-weight: lighter;
+    color: #fff;
+}
 
 @media(max-width: 1024px) {
     section.main-screen{

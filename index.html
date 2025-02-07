@@ -15,22 +15,22 @@
         <div class="nav">
             <h1>PORTFOLIO</h1>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>  
         </div>
     </header>
     <main>
-        <section class="main-screen">
+        <section id="home" class="main-screen">
             <article>
                 <p>UX/UI Publisher</p>
                 <h1>PORTFOLIO</h1>
                 <p class="goal">디자인 뿐만 아니라 사용자가 직관적으로 이용할 수 있는 웹사이트를 구현하는 것을 지향합니다.</p>
             </article> 
         </section>
-        <section class="profile">
+        <section id="profile" class="profile">
             <h1>MY PROFILE</h1>
             <div class="inner">
                 <div class="profile-img"><img src="images/서가연.jpg" alt="서가연 증명사진"></div>
@@ -60,7 +60,7 @@
                             <h2>EDUCATION</h2>
                             <h3>2023.02</h3>
                             <p>수원대학교 전자공학과 졸업</p>
-                            <h3>2024.07 - 2025.02</h3>
+                            <h3 class="date">2024.07 - 2025.02</h3>
                             <p>SBS아카데미컴퓨터아트학원<br> 웹 퍼블리셔 과정 이수</p>
                         </div>
                         <div class="work-experience">
@@ -72,7 +72,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section id="portfolio" class="portfolio">
             <h1>MY PORTFOLIO</h1>
             <div class="swiper">
                 <ul class="swiper-wrapper">
@@ -123,7 +123,7 @@
                 <button class="next"><i class="material-icons right">chevron_right</i></button>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <h1>CONTACT ME</h1>
             <h2>함께 할 퍼블리셔를 찾고 계신다면, 언제든지 연락주세요.</h2>
             <ul>
@@ -133,9 +133,12 @@
                 </li>
                 <li class="mail">
                     <h3><i class="material-icons mail-icon">mail</i>E-mail</h3>
-                    <p>ssgy0930@naver.com</p>
+                    <a href="mailto:ssgy0930@naver.com"><p>ssgy0930@naver.com</p></a>
                 </li>
             </ul>
+        </section>
+        <section class="footer">
+            <p>© copyright Seo Gayeon. All Right Reserved.</p>
         </section>
     </main>
 

@@ -633,6 +633,7 @@ section.store-locater .locater-box .search-box .search{
     border-bottom: 1px solid #333;
     width: 189vw;
     height: 3.17vw;
+    position: relative;
 }
 section.store-locater .locater-box .search-box .search input {
     width: 90%;
@@ -1046,6 +1047,29 @@ ul.information h4 {
     .kit p {
         font-size: 13px;
     }
+    section.handle h2.title {
+        font-size: 22px;
+    }
+    .handle-pc {
+        visibility: visible;
+    }
+    .handle-tablet {
+        display: none;
+    }
+    .handle-list {
+        flex-direction: column;
+    }
+    .handle-list li {
+        display: flex;
+    }
+    ul.handle-list li h3 {
+        font-size: 18px;
+    }
+    ul.handle-list li p {
+        font-size: 15px;
+        width: 40%;
+    }
+    
     section.new-item .title,.loved-title-tablet h3,.home-title-tablet h3,section.services h2,section.store-locater h3 {
         font-size: 22px;
     }
@@ -1062,13 +1086,13 @@ ul.information h4 {
         font-size: 13px;
     }
     section.loved-item .loved-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
-        top: 110%;
+        top: 103%;
     }
     section.home-care .home-slider {
         margin-top: 130px;
     }
     section.home-care .home-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
-        top: 115%;
+        top: 110%;
     }
     section.services h2 {
         margin-bottom: 50px;
@@ -1076,6 +1100,10 @@ ul.information h4 {
     section.store-locater .locater-box .search-box .search input::placeholder {
         position: absolute;
         top: 0;
+    }
+    section.store-locater .locater-box .search-box .search i {
+        position: absolute;
+        top: 1vw;
     }
     .saying {
         margin-top: 50vw;
@@ -1089,5 +1117,13 @@ ul.information h4 {
     }
     footer {
         margin-top: 50vw;
+    }
+}
+@media(max-width: 394px) {
+    section.loved-item .loved-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+        top: 93%;
+    }
+    section.home-care .home-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+        top: 100%;
     }
 }

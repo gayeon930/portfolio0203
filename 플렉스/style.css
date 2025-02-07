@@ -135,10 +135,8 @@ header {
     color: #fff;
     font-weight: bold;
 }
-.xi-bars {
-    cursor: pointer;
-    color: #fff;
-    font-size: 25px;
+.hamburger-menu i {
+    color: #FFF;
 }
 @media(max-width: 769px){
     .header-inner {
@@ -263,7 +261,7 @@ header.filled .dropdown-menu a:hover {
 header.filled .nav a:hover { 
     background: rgb(231, 231, 231);
 }
-header.filled .xi-bars {
+header.filled .hamburger-menu i {
     color: #000;
 }
 .header-bg {
