@@ -1027,6 +1027,43 @@ ul.information h4 {
     section.home-care .home-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
         top: 127%;
     }
+    section.handle h2.title {
+        font-size: 22px;
+    }
+    .handle-pc {
+        visibility: visible;
+    }
+    .handle-tablet {
+        display: none;
+    }
+    .handle-list {
+        flex-direction: column;
+    }
+    ul.handle-list li {
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 0;
+        margin-bottom: 3vw;
+    }
+    ul.handle-list li.down {
+        margin-top: 5vw;
+    }
+    .explain {
+        width: 40vw;
+    }
+    .handleimg-clip {
+        width: 32vw;
+        height: 40vw
+    }
+    ul.handle-list li h3 {
+        font-size: 18px;
+    }
+    ul.handle-list li p {
+        font-size: 15px;
+    }
+    
 }
 @media(max-width: 420px) {
     .header-mobile {
@@ -1046,28 +1083,6 @@ ul.information h4 {
     }
     .kit p {
         font-size: 13px;
-    }
-    section.handle h2.title {
-        font-size: 22px;
-    }
-    .handle-pc {
-        visibility: visible;
-    }
-    .handle-tablet {
-        display: none;
-    }
-    .handle-list {
-        flex-direction: column;
-    }
-    .handle-list li {
-        display: flex;
-    }
-    ul.handle-list li h3 {
-        font-size: 18px;
-    }
-    ul.handle-list li p {
-        font-size: 15px;
-        width: 40%;
     }
     
     section.new-item .title,.loved-title-tablet h3,.home-title-tablet h3,section.services h2,section.store-locater h3 {
